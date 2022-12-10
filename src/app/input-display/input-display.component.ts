@@ -21,8 +21,6 @@ export class InputDisplayComponent implements OnInit{
     this.service.inspectVal().subscribe(res => {
       this.params = res.data;
       console.log(this.params);
-
-
     })
 
   }
